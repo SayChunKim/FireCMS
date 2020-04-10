@@ -1,5 +1,7 @@
 # FireCMS
 
+[
+
 ![alt="fireCMSlogo"](https://firecms-9763b.firebaseapp.com/images/fireCMS_logo.png)
 
 Open Source CMS with Firebase SDK and ~~Angular~~ VueJS licensed under MIT
@@ -8,7 +10,7 @@ Open Source CMS with Firebase SDK and ~~Angular~~ VueJS licensed under MIT
 
 FireCMS is an open source CMS project founded by [SayChunKim](https://github.com/SayChunKim) using [QuillJS](http://quilljs.com), Firebase and ~~Angular~~ Vue (Vue4Life)
 
-~AngularJS aka [AngularFire](https://github.com/firebase/angularfire) (TBA for Angular 2/4 version)~ VueFire
+~AngularJS aka [AngularFire](https://github.com/firebase/angularfire) (TBA for Angular 2/4 version)~ VueFire. Because Angular is killing me literally.
 
 
 FireCMS is served for balance for simplicity and performance. Simplicity is meant for developers' dilemma for configuring and deploying full-stack enviroments
@@ -20,7 +22,7 @@ FireCMS has supported features included from start:
 
 1. 3-lines of JS for Database Initialization
 2. Integrated Authentication using Google/Facebook/Github/Twitter/EmailPassword Authentication
-3. Realtime Database via secure request with AngularFire for pages content and metadata
+3. Realtime Database via secure request with VueFire for pages content and metadata
 4. User Roles Management (Admin,Editor) for Create/Read/Update/Delete permissions
 5. Integrated with Google Analytics for advertising ROI Measurement site monitoring with just provide tracking ID
 6. Push Notification using (Firebase Cloud Messaging) for subscriptions*
