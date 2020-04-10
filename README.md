@@ -2,9 +2,14 @@
 
 ![alt="fireCMSlogo"](https://firecms-9763b.firebaseapp.com/images/fireCMS_logo.png)
 
-Open Source CMS with Firebase SDK and Angular licensed under MIT
+Open Source CMS with Firebase SDK and ~~Angular~~ VueJS licensed under MIT
 
-FireCMS is an open source CMS project founded by [SayChunKim](https://github.com/SayChunKim) using [QuillJS](http://quilljs.com), Firebase and AngularJS aka [AngularFire](https://github.com/firebase/angularfire) (TBA for Angular 2/4 version)
+> Was an April Fool Joke. But i will get this shit run. Sorry if someone is waiting.
+
+FireCMS is an open source CMS project founded by [SayChunKim](https://github.com/SayChunKim) using [QuillJS](http://quilljs.com), Firebase and ~~Angular~~ Vue (Vue4Life)
+
+~AngularJS aka [AngularFire](https://github.com/firebase/angularfire) (TBA for Angular 2/4 version)~ VueFire
+
 
 FireCMS is served for balance for simplicity and performance. Simplicity is meant for developers' dilemma for configuring and deploying full-stack enviroments
 which fits for multiple platforms. Ideal for engaging users with simple push of `submit` button.
@@ -24,9 +29,11 @@ FireCMS has supported features included from start:
 ## Getting Started
 ### Setting Up
 1. `git clone` the project and allocate to your project folder, in same time go [console.firebase.google.com](https://console.firebase.google.com) to make your project
-2. Install `npm` and `firebase-cli` into Terminal/CMD via [tutorial here]()
-3. Open Terminal `firebase init` under your folder project to initialize your Firebase Project
+2. Install `npm` and `firebase-cli` into Terminal/CMD via [tutorial here]() 
+3. Open Terminal `firebase init` under your folder project to initialize your Firebase Project 
 4. Go to project root folder > index.html and add the web app script snippet given by Firebase Console before end of `<body>` tag
+5. **[UPDATE COMING SOON] :placeholder "The fun begins here"**.  I will upload the VueFire project structure (public + admin) here. Stay tuned.
+
 
 NOTE: this is just snippet, please refer Firebase Console.
 ```    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
@@ -43,9 +50,9 @@ NOTE: this is just snippet, please refer Firebase Console.
           firebase.initializeApp(config);
       </script>
 ```
-5. Terminal type `firebase serve` for localhosting.
-6. For the first time, login with the method you have chosen. You will be redirected to admin homepage if successfully authenticated.
-7. Enjoy. Let's Start writing your first post !
+6. Terminal type `firebase serve` for localhosting.
+7. For the first time, login with the method you have chosen. You will be redirected to admin homepage if successfully authenticated.
+8. Enjoy. Let's Start writing your first post !
 
 
 ### Authentication
@@ -69,3 +76,4 @@ Firebase Cloud Messaging helps engaging users/clients via subcription methods si
 
 *Sincerely,*<br>
 *SC Kim*
+Potato Developer
